@@ -1,0 +1,29 @@
+# Ignore build directories
+cmake-build-debug/
+build/
+out/
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore generated files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
