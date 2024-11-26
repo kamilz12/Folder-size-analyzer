@@ -29,7 +29,7 @@ std::uintmax_t calculateFolderSize(const fs::path& folderPath, std::unordered_ma
         std::cerr << "ERROR: " << e.what() << '\n';
     }
 
-    folderSizes[folderPath] = totalSize; // Zapisujemy rozmiar folderu
+    folderSizes[folderPath] = totalSize;
     return totalSize;
 }
 
